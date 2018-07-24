@@ -96,8 +96,8 @@ GEM
     factory_bot_rails (4.8.2)
       factory_bot (~> 4.8.2)
       railties (>= 3.0.0)
-    faker (1.8.5)
-      i18n (~> 0.9.1)
+    faker (1.9.1)
+      i18n (>= 0.7)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     fedex (3.10.11)
@@ -329,7 +329,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   factory_bot_rails
-  faker
+  faker (~> 1.9.1)
   fedex (~> 3.10, >= 3.10.1)
   figaro
   friendly_id (~> 5.1.0)

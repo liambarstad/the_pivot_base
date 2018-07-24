@@ -28,7 +28,7 @@ gem 'fedex', '~> 3.10', '>= 3.10.1'
 gem 'redis', '~> 3.0'
 gem 'jquery-ui-rails'
 gem 'ransack'
-gem 'faker'
+gem 'faker',        '~> 1.9.1'
 
 
 group :development, :test do
@@ -42,7 +42,7 @@ group :development, :test do
   gem 'pry'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'launchy'
-  gem 'faker'
+  gem 'faker',      '~> 1.9.1'
   gem 'simplecov'
   gem 'selenium-webdriver'
 end
