@@ -42,7 +42,6 @@ group :development, :test do
   gem 'pry'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'launchy'
-  gem 'faker',      '~> 1.9.1'
   gem 'simplecov'
   gem 'selenium-webdriver'
 end
